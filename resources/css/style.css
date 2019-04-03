@@ -126,7 +126,6 @@ header {
 
 .main-nav li a:link,
 .main-nav li a:visited {
-    padding: 8px 0;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
@@ -137,5 +136,5 @@ header {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-    border-bottom: 2px solid #e67e22;
+    border-bottom: 2px solid #cf6d17;
 }
