@@ -488,3 +488,91 @@ input[type=checkbox] {
 /*--------------------------------------*/
 /* FOOTER SECTION */
 /*--------------------------------------*/
+footer {
+    background-color: #333333;
+    padding: 50px;
+    font-size: 80%;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+    margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    transition: color 0.2s;
+    
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #ddd;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    font-size: 130%;
+}
+
+.ion-social-facebook,
+.ion-social-youtube,
+.ion-social-whatsapp,
+.ion-social-tumblr,
+.ion-social-twitter,
+.ion-social-instagram,
+.ion-social-snapchat {
+    transition: color 0.2s;
+}
+
+
+.ion-social-facebook:hover {
+    color:  #3b5998;
+}
+.ion-social-youtube:hover {
+    color: #ff0000;
+}
+.ion-social-whatsapp:hover {
+    color: #4dc247;
+}
+.ion-social-tumblr:hover {
+    color: #32506d;
+}
+.ion-social-twitter:hover {
+    color: #55acee;
+}
+.ion-social-instagram:hover {
+    color: #e95950;
+}
+.ion-social-snapchat:hover {
+    color: #fffc00;
+}
+
+footer p {
+    color: #ddd;
+    text-align: center;
+    font-size: 90%;
+    margin-top: 20px;
+}
+
